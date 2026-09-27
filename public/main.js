@@ -932,7 +932,7 @@ function renderAuth(mode){
       ${isLogin ? `
         <p style="text-align:center;margin-top:14px;"><button class="btn btn-ghost btn-sm" onclick="handleForgotPassword()">Forgot password?</button></p>
         <p style="text-align:center;" class="helper-text">Don't have an account? <a href="#" onclick="event.preventDefault();navigate('register')">Register here</a></p>
-        <div class="lang-note">Demo login — Patient: kamalam@example.com / demo1234 · Caregiver: priya@example.com / demo1234</div>
+        
       ` : `
         <p style="text-align:center;margin-top:14px;" class="helper-text">Already have an account? <a href="#" onclick="event.preventDefault();navigate('login')">Log in</a></p>
       `}
